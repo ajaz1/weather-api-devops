@@ -1,0 +1,18 @@
+variable "location" {
+  type    = string
+  default = "nbg1"
+}
+
+variable "server_type" {
+  type    = string
+  default = "cx22"
+}
+
+variable "ssh_key_name" {
+  type = string
+}
+
+variable "hcloud_token" {
+  type      = string
+  sensitive = true
+}

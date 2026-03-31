@@ -1,0 +1,11 @@
+- name: Setup PostgreSQL on DB server
+  hosts: db
+  become: yes
+  roles:
+    - database
+
+- name: Deploy API on API servers
+  hosts: api
+  become: yes
+  roles:
+    - api

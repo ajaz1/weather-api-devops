@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Cloud_Repositories"
+		},
+		{
+			"path": "../../../code/mywebsite"
+		}
+	],
+	"settings": {
+		"terminal.integrated.profiles.windows": {
+			"Git Bash": {
+				"path": "C:\\Program Files\\Git\\bin\\bash.exe"
+			}
+		},
+		"terminal.integrated.defaultProfile.windows": "Git Bash"
+	}
+}

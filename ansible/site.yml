@@ -1,0 +1,21 @@
+---
+- name: Setup Docker on all servers
+  hosts: all
+  become: true
+
+  roles:
+    - docker
+
+- name: Setup PostgreSQL on DB server
+  hosts: db
+  become: true
+
+  roles:
+    - database
+
+- name: Deploy Weather API
+  hosts: api
+  become: true
+
+  roles:
+    - api
