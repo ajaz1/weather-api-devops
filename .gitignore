@@ -1,7 +1,21 @@
-.terraform/
+# Terraform
 *.tfstate
 *.tfstate.backup
+.terraform/
 terraform.tfvars
-*.log
-.env
+
+# Ansible
 *.retry
+
+# SSH
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
